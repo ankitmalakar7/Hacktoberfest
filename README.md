@@ -12,7 +12,8 @@ This is to help beginners to contribute for Hacktoberfest 2022.
 
 ## Demo for doing first Pull request
 
-https://user-images.githubusercontent.com/84442212/194343659-ed782c31-b1ec-4a0a-aca3-f385c86160d2.mp4
+- <a href="https://youtu.be/nkuYH40cjo4" target='_blank'>DigitalOcean</a>
+- <a href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request" target='_blank'>GitHub</a>
 
 ## Quickstart
 
