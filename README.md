@@ -12,7 +12,7 @@ This is to help beginners to contribute for Hacktoberfest 2022.
 
 ## Demo for doing first Pull request
 
-https://youtu.be/nkuYH40cjo4
+https://user-images.githubusercontent.com/84442212/194343659-ed782c31-b1ec-4a0a-aca3-f385c86160d2.mp4
 
 ## Quickstart
 
