@@ -1,4 +1,6 @@
-# Hacktoberfest 2022 Sign-In Page
+# Welcome to Hacktoberfest 2022 Sign-In Page
+
+![hacktoberfest](https://user-images.githubusercontent.com/84442212/194802334-b080fcfe-dfb3-41ae-b03f-4225c073cbff.png)
 
 This is to help beginners to contribute for Hacktoberfest 2022.
 
