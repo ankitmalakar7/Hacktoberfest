@@ -2,17 +2,39 @@
 * {
     box-sizing: border-box;
     font-family: 'JetBrains Mono', monospace;
-}
-h1{
     margin: 0;
-
+    padding: 0;  
 }
+
+html {
+    @media (max-width: 1080px) {
+        font-size: 93.75%;
+    }
+
+    @media (max-width: 720px) {
+        font-size: 87.5%;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+
+body, button {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
 .jumbotron-fluid{
     padding: 10px;
 }
-.center h2{
-    text-align: center;
-}
+
 .center li{
     text-align: center;
 }
@@ -23,7 +45,7 @@ li {
 .header-bg{
     background-color: rgb(23, 15, 30);
     color: rgb(229, 225, 230);
-    padding-top: 20px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 .jumbotron-fluid{
@@ -36,7 +58,6 @@ li {
 }
 .jumbotron-fluid p{
     color: white;
-   
 }
 #footer{
     background-color: blue;
@@ -45,12 +66,17 @@ li {
     bottom: 0px;
 }
 
-.list-grid ol{
+.list ol{
     column-count: 3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .jumbotron-fluid h1 {
-        font-size: 4rem;
+        font-size: 2.5rem;
+    }
+    .list ol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
