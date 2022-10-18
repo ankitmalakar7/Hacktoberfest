@@ -47,6 +47,10 @@ li {
     color: rgb(229, 225, 230);
     padding: 20px;
     margin-bottom: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
