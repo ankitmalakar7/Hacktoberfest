@@ -23,7 +23,9 @@ button {
 a {
     color: inherit;
 }
-
+body{
+    background-color: #BC986A;
+}
 
 body, button {
     font-size: 1rem;
@@ -71,7 +73,7 @@ li {
 }
 
 .list ol{
-    column-count: 3;
+    column-count: 4;
 }
 
 @media (max-width: 720px) {
