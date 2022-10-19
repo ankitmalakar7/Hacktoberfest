@@ -25,7 +25,19 @@ a {
 }
 body{
     background-color: #BC986A;
+    
 }
+body::-webkit-scrollbar{
+    width: 0.5rem;
+
+}
+body::-webkit-scrollbar-thumb{
+    background-image: linear-gradient( #BC986A, rgb(23, 15, 30), rgb(23, 15, 30), rgb(23, 15, 30), rgb(23, 15, 30), #BC986A);
+}
+body::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
 
 body, button {
     font-size: 1rem;
