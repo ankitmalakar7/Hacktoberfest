@@ -27,6 +27,12 @@ body{
     background-color: #BC986A;
     
 }
+
+img {
+	width: 100%;
+	height: auto;
+}
+
 body::-webkit-scrollbar{
     width: 0.5rem;
 
