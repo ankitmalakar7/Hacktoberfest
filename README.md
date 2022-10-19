@@ -11,6 +11,7 @@ This is to help beginners to contribute for Hacktoberfest 2022.
 - Search for `ol` tag in the `index.html` file
 - Add a `li` tag with the url of your github profile.
 - That's it. You are done. Check out the website.
+- ⭐ this repo for future uses in next Hacktoberfests.
 
 ## Update
 
