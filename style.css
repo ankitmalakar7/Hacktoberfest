@@ -69,7 +69,7 @@ li {
 .header-bg {
   background-color: rgb(23, 15, 30);
   color: rgb(229, 225, 230);
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
   min-height: 100vh;
   display: flex;
@@ -111,7 +111,7 @@ li {
 
 @media screen and (max-width: 768px) {
   ul {
-    column-count: 3;
+    column-count: 2;
     column-gap: 5rem;
   }
 }
