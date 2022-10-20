@@ -1,106 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 * {
-    box-sizing: border-box;
-    font-family: 'JetBrains Mono', monospace;
-    margin: 0;
-    padding: 0;  
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    @media (max-width: 1080px) {
-        font-size: 93.75%;
-    }
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
 
-    @media (max-width: 720px) {
-        font-size: 87.5%;
-    }
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
-body{
-    background-color: #BC986A;
-    
+body {
+  background-color: #bc986a;
 }
 
 img {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
-body::-webkit-scrollbar{
-    width: 0.5rem;
-
+body::-webkit-scrollbar {
+  width: 0.5rem;
 }
-body::-webkit-scrollbar-thumb{
-    background-image: linear-gradient( #BC986A, rgb(23, 15, 30), rgb(23, 15, 30), rgb(23, 15, 30), rgb(23, 15, 30), #BC986A);
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    #bc986a,
+    rgb(23, 15, 30),
+    rgb(23, 15, 30),
+    rgb(23, 15, 30),
+    rgb(23, 15, 30),
+    #bc986a
+  );
 }
-body::-webkit-scrollbar-track{
-    background-color: transparent;
-}
-
-
-body, button {
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-
-.jumbotron-fluid{
-    padding: 10px;
+body::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
-.center li{
-    text-align: center;
+body,
+button {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.jumbotron-fluid {
+  padding: 10px;
+}
+
+.center li {
+  text-align: center;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 /* -------- */
-.header-bg{
-    background-color: rgb(23, 15, 30);
-    color: rgb(229, 225, 230);
-    padding: 20px;
-    margin-bottom: 20px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-bg {
+  background-color: rgb(23, 15, 30);
+  color: rgb(229, 225, 230);
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.jumbotron-fluid{
-    /* background-color: #f76c5e; */
-    text-align: center;
+.jumbotron-fluid {
+  /* background-color: #f76c5e; */
+  text-align: center;
 }
-.jumbotron-fluid h1{
-    color: white;
-    font-size: 4rem;
+.jumbotron-fluid h1 {
+  color: white;
+  font-size: 4rem;
 }
-.jumbotron-fluid p{
-    color: white;
+.jumbotron-fluid p {
+  color: white;
 }
-#footer{
-    background-color: blue;
-    text-align: center;
-    color: red;
-    bottom: 0px;
+#footer {
+  background-color: blue;
+  text-align: center;
+  color: red;
+  bottom: 0px;
 }
 
-.list ol{
-    column-count: 4;
+.list ol {
+  column-count: 4;
 }
 
 @media (max-width: 720px) {
-    .jumbotron-fluid h1 {
-        font-size: 2.5rem;
-    }
-    .list ol{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+  .jumbotron-fluid h1 {
+    font-size: 2.5rem;
+  }
+  .list ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    column-count: 3;
+    column-gap: 5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    column-count: 4;
+    column-gap: 10rem;
+  }
 }
