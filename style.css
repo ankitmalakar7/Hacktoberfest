@@ -38,10 +38,10 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(
     #bc986a,
-    rgb(23, 15, 30),
-    rgb(23, 15, 30),
-    rgb(23, 15, 30),
-    rgb(23, 15, 30),
+    rgb(235, 226, 154),
+    rgb(149, 224, 237),
+    rgb(140, 188, 250),
+    rgb(145, 148, 248),
     #bc986a
   );
 }
