@@ -23,6 +23,11 @@ button {
 a {
   color: inherit;
 }
+
+a:hover{
+  font-style: italic;
+}
+
 body {
   background-color: #bc986a;
 }
@@ -30,6 +35,10 @@ body {
 img {
   width: 100%;
   height: auto;
+}
+
+img:hover{
+  border-radius: 100%;
 }
 
 body::-webkit-scrollbar {
