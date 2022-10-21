@@ -142,7 +142,7 @@ li {
 @media screen and (max-width: 768px) {
   ul {
     column-count: 2;
-    column-gap: 5rem;
+    column-gap: 4rem;
   }
 }
 
