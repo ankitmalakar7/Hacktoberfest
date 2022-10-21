@@ -24,8 +24,29 @@ a {
   color: inherit;
 }
 
-a:hover{
-  font-style: italic;
+a{
+  /* font-style: italic; */
+  text-decoration: none;
+  /* color: #05386B; */
+  background:
+    linear-gradient(
+      to right,
+      #05386B,
+      #05386B
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 1.5px, 0 1.5px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+a:hover {
+    background-size: 0 1.5px, 100% 1.5px;
 }
 
 body {
