@@ -107,6 +107,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: -32px;
 }
 .jumbotron-fluid {
   /* background-color: #f76c5e; */
@@ -232,13 +233,13 @@ color: #27bcda;
     right: 0;
     background: #111;
     height: 130px;
-    width: 100vw;
+    width: 108vw;
     /* padding-top: 40px; */
     color: #fff;
   }
   .footer-bottom{
     background: #000;
-    width: 100vw;
+    width: 108vw;
     height: 145px;
     /* padding: 10px; */
     /* padding-bottom: 40px; */
