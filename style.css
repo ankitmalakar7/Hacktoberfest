@@ -52,7 +52,7 @@ a:hover {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #bc986a;
+  background-color: #e4a24b;
 }
 
 img {
@@ -188,7 +188,7 @@ footer{
 }
 
 .footer-bottom{
-  background: #000;
+  background: rgb(87, 87, 87);
   width: 100vw;
   height: 75px;
   padding: 20px;
