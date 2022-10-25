@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height: 60px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 1px;
+  font-size: 26px;
+}
+.topnav img {
+  float: left;
+  align-self: center;
+  padding: 4px 16px;
+  height: 50px;
+}
+
+#bold{
+  font-size:20px;
+  font-weight:bolder;
+  color: rgba(9, 137, 211, 0.89);
+}
+
+#top{
+  text-align: center;
+  margin:auto;
+  border-bottom: 2px solid grey;
+  padding: 14px 16px;
+}
+
+.container{
+  background-color: rgb(238 251 255);
+  border: 2px solid gray;
+  width: 248px;
+  height: 150px;
+  float:left;
+  margin:2px;
+  text-align: center;
+}
+
+h3{
+  margin:10px 30%;
+}
+
+.list{
+  /* float: left; */
+  
+  text-align: left;
+}
+
+.form{
+  border: 2px solid grey;
+  background-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<br>
+<div>
+<form action="Backend.js">
+  <div style="display: flex;">
+  <div style="margin-left: 50px;margin-right: 50px;" class="form">
+    Name: <input type="text">
+  </div>
+  <div class="form">
+    Date: <input type="date">
+  </div>
+</div>
+<div style="display: flex;">
+  <div class="form">
+    Email: <input type="email">
+  </div>
+  <div class="form">
+    Gender: Male<input type="radio" name="gender"> Female<input type="radio" name="gender"> Other<input type="radio" name="gender">
+  </div>
+</div>
+<div style="display: flex;">
+  <div class="form">
+    Select lab: <select name="lab">
+      <option value="None">None</option>
+      <option value="Norman">Norman Lab</option>
+      <option value="McCarthy">McCarthy Lab</option>
+      <option value="Tesla">Tesla Lab</option>
+      <option value="Pausch">Pausch Lab</option>
+      <option value="Satoshi">Satoshi Lab</option>
+    </select>
+  </div>
+
+
+
+ 
+
+</div>
+</form>
+</div>
+
+</body>
+</html>
