@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
 }
-
+h1{
+  display:inline-block;
+}
 html {
   @media (max-width: 1080px) {
     font-size: 93.75%;
@@ -57,12 +59,16 @@ body {
 }
 
 img {
-  width: 100%;
-  height: auto;
+  display : inline-block;
+  margin-top:-43px;
+  width: 47px;
+  height: 47px;
 }
 
 img:hover{
-  border-radius: 100%;
+  /* border-radius: 100%; */
+    box-shadow : rgb(255 215 77 / 60%) -1px -1px 6px,
+    rgb(124 127 255 / 60%) 1px 1px 6px;
 }
 
 body::-webkit-scrollbar {
