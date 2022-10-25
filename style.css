@@ -53,7 +53,7 @@ a:hover {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #bc986a;
+  background-color:#bc986a
 }
 
 img {
@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(
-    #bc986a,
+    #bc986a
     rgb(235, 226, 154),
     rgb(149, 224, 237),
     rgb(140, 188, 250),
