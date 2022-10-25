@@ -31,7 +31,7 @@ a{
   background:
     linear-gradient(
       to right,
-      #05386B,
+      #fff,
       #05386B
     ),
     linear-gradient(
@@ -53,7 +53,7 @@ a:hover {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #bc986a;
+ background-color: rgb(23, 15, 30);
 }
 
 img {
@@ -173,6 +173,8 @@ footer{
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  background-color: rgb(23, 15, 30);
+  margin: 40px 0;
 }
 .footer-content h3{
   font-size: 2.1rem;
