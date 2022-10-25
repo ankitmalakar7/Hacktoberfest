@@ -29,7 +29,7 @@ a {
 a{
   /* font-style: italic; */
   text-decoration: none;
-  /* color: #05386B; */
+  color: #2d3d15;
   background:
     linear-gradient(
       to right,
@@ -49,12 +49,13 @@ a{
 }
 a:hover {
     background-size: 0 1.5px, 100% 1.5px;
+    color: rgb(196, 33, 33);
 }
 
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #e4a24b;
+  background-color:#bc986a
 }
 
 img {
@@ -75,7 +76,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(
-    #bc986a,
+    #bc986a
     rgb(235, 226, 154),
     rgb(149, 224, 237),
     rgb(140, 188, 250),
@@ -170,7 +171,7 @@ footer{
   height: auto;
   width: 100vw;
   /* padding-top: 40px; */
-  color: white;
+  color: #fff;
 }
 .footer-content{
   display: flex;
