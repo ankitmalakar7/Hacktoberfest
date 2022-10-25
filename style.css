@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&family=VT323&display=swap');
 * {
   box-sizing: border-box;
-  font-family: "JetBrains Mono", monospace;
+  font-family: 'Inconsolata', monospace;
   margin: 0;
   padding: 0;
 }
@@ -20,6 +21,10 @@ html {
 
 button {
   cursor: pointer;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
 }
 
 a {
