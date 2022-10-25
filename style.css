@@ -255,3 +255,8 @@ color: #27bcda;
 .margin{
   margin: 40px;
 }
+
+.list{
+  background: rgb(23, 15, 30);
+  color: #fff;
+}
