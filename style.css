@@ -179,6 +179,7 @@ footer{
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 10px;
 }
 .footer-content h3{
   font-size: 2.1rem;
@@ -233,6 +234,7 @@ text-decoration: none;
 color: #27bcda;
 }
 
+
 @media (max-width:500px) {
   footer{
     bottom: 0;
@@ -251,6 +253,7 @@ color: #27bcda;
     /* padding: 10px; */
     /* padding-bottom: 40px; */
     text-align: center;
+    
   }
   .footer-menu ul{
   display: flex;
