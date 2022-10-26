@@ -17,6 +17,8 @@ html {
   @media (max-width: 720px) {
     font-size: 87.5%;
   }
+  max-width: 100%;
+  overflow-x: hidden;
 }
 button {
   cursor: pointer;
