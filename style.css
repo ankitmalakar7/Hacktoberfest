@@ -350,3 +350,28 @@ footer {
   display: grid;
   grid-template-columns: 10fr  ; */
 }
+
+.navbar{
+  background-color: rgb(3, 32, 55);
+  width:auto;
+  height: 40px;
+  position: fixed;
+}
+
+.navbar li{
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+.navbar li a{
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li a:hover{
+  background-color: #555;
+  color: white;
+}
