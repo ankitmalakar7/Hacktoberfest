@@ -353,7 +353,7 @@ footer {
 
 .topnav{
   background-color: rgb(3, 32, 55);
-  width:auto;
+  width:100%;
   height: 35px;
   position: fixed;
 }
