@@ -52,7 +52,7 @@ a:hover {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #bc986a;
+  background-color:  rgb(255 255 255 /31%)
 }
 
 img {
@@ -349,4 +349,12 @@ footer {
   /* justify-items: center;
   display: grid;
   grid-template-columns: 10fr  ; */
+}
+.list ul li{
+    margin: 3px;
+    font-family: dm sans,Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6em;
+background-color: rgb(255 255 255 /31%)
 }
